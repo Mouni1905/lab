@@ -21,7 +21,7 @@ jobs:
     - name: Testing step
       run: |
         echo "Running tests"
-        node app.js | grep "CI Pipeline"
+        node app.js | grep "DevOps CI/CD Pipeline Running""
 
     - name: Deploy stage
       run: echo "Deploying to production.."
